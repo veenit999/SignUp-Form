@@ -53,7 +53,7 @@ app.set('view engine', 'ejs');
 //--------------------------------
 app.use(express.static("public")); //public folder m html aur css file ko link krne ka middleware
   //ejs set hogya as a view engine
-const port = process.env.port || 4040; //port number
+const port = process.env.PORT || 4040; //port number
 
 //EJS is used to send dynamic content
 
